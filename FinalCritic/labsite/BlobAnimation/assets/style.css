@@ -1,0 +1,117 @@
+/* boilerplate */
+
+
+body{
+	padding: 0;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	margin-left: 100px;
+}
+
+.blob1
+{
+	width: 400px;
+	height: 400px;
+	background: #e8efeb;
+	animation: animate 5s linear infinite;
+	
+	
+}
+h1
+{
+	font-size: 30px;
+	color: white;
+	text-align: center;
+	margin-top: 200px;
+	font-family: helvetica;
+	letter-spacing: -2px;
+	animation: animate 5s ease-in-out infinite;
+	
+	
+}
+h1 a
+{
+	list-style: none;
+	text-decoration: none;
+	text-align: center;
+	color: white;
+}
+
+
+
+@keyframes animate
+{
+	0%,100%
+	{
+		border-radius: 64% 36% 27% 73% / 55% 58% 42% 45%;
+	}
+	25%
+	{
+		border-radius: 73% 27% 26% 38% / 73% 36% 64% 27%;
+	}
+	50%
+	{
+		border-radius: 28% 72% 44% 56% / 49% 40% 60% 51%;
+	}
+	75%
+	{
+		border-radius: 40% 60% 70% 30% / 47% 62% 38% 53%;
+	}
+}
+
+.blob2
+{
+	width: 300px;
+	height: 300px;
+	background: #89b4f9;
+	animation: myframes 5s linear infinite;
+	
+	margin-left: -100px;
+
+}
+h2
+{
+	font-size: 30px;
+	color: white;
+	text-align: center;
+	margin-top: 150px;
+	font-family: helvetica;
+	letter-spacing: -2px;
+	
+	
+	
+}
+h2 a
+{
+	list-style: none;
+	text-decoration: none;
+	text-align: center;
+	color: white;
+}
+
+@keyframes myframes
+{
+	0%,100%
+	{
+		border-radius: 64% 36% 27% 73% / 55% 58% 42% 45%;
+	}
+	25%
+	{
+		border-radius: 80% 27% 26% 60% / 90% 36% 70% 27%;
+	}
+	50%
+	{
+		border-radius: 28% 90% 44% 70% / 60% 40% 70% 51%;
+	}
+	75%
+	{
+		border-radius: 20% 60% 70% 20% / 47% 62% 38% 53%;
+	}
+}
+
+
+
+

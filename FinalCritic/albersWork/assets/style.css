@@ -1,0 +1,92 @@
+/* boilerplate */
+
+
+body{
+	padding: 0;
+	margin: 0;
+	font-family: helvetica;
+
+}
+
+h1
+{
+	position: absolute;
+	top: 35%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	margin: 0;
+	padding: 0;
+	font-size: 250px;
+	text-transform: uppercase;
+	background: url(typewriterstudy.png);
+	background-size: 800px;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-webkit-text-stroke: 0px #000; 
+	animation: animate 40s linear infinite;
+	
+}
+
+h2
+{
+	position: absolute;
+	top: 65%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	margin: 0;
+	padding: 0;
+	font-size: 250px;
+	text-transform: uppercase;
+	background: url(typewriterstudy.png);
+	background-size: 800px;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-webkit-text-stroke: 0px #000; 
+	animation: animate 40s linear infinite;
+	z-index: 3;
+}
+
+@keyframes animate
+
+{
+	0%
+	{
+		background-position: 0,0;
+	}
+	100%
+	{
+		background-position: 800px 800px;
+	}
+}
+
+#sec1{
+
+	width: 1200px;
+	height: 700px;
+	background-color: white;
+	color: black;
+	font-size: 22px;
+	line-height: 54px;
+	text-align: center;
+	margin-left: calc(50% - 600px)
+
+}
+
+input{
+
+	width: 200px;
+	height: 120px;
+	font-size: 10px;
+	font: helvetica;
+	
+	text-transform: uppercase;
+	font-weight: bold;
+	border:0px;
+}
+
+#button1
+{
+	margin-left: calc(50% - 100px);
+	text-align: center;
+}
+

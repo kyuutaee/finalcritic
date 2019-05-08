@@ -1,0 +1,589 @@
+body{margin:0;}
+	.position1
+
+	{
+		width: 540px;
+		height: 540px;
+		background: black;
+		align-items: center;
+		position: relative;
+		margin-top:100px;
+		margin-bottom:100px;
+		margin-left:100px;
+		margin-right:100px;
+		
+		padding-top:0px;
+		padding-bottom:0px;
+		padding-left:0px;
+		padding-right:0px;
+
+	}
+
+	.square1-1
+	{
+		width: 270px;
+		height: 270px;
+		display: inline-block;
+		background: rgb(236, 247, 222);
+		margin-left: 270px;
+	}
+
+	.position2
+
+	{
+		width: 540px;
+		height: 540px;
+		background: black;
+		align-items: center;
+		position: relative;
+		margin-top:100px;
+		margin-bottom:100px;
+		margin-left:100px;
+		margin-right:100px;
+		
+		padding-top:0px;
+		padding-bottom:0px;
+		padding-left:0px;
+		padding-right:0px;
+
+	}
+
+	.square2-1
+	{
+		width: 270px;
+		height: 270px;
+		display: block;
+		position: absolute;
+		
+		background: rgb(247, 240, 222);
+		
+	}
+
+	.square2-2
+	{
+		width: 270px;
+		height: 405px;
+		display: block;
+		position: absolute;
+		margin-left: 270px;
+		margin-top: 135px;
+		
+		background: rgb(247, 240, 222);
+		
+	}
+
+	.position3
+
+	{
+		width: 540px;
+		height: 540px;
+		background: black;
+		align-items: center;
+		position: relative;
+		margin-top:100px;
+		margin-bottom:100px;
+		margin-left:100px;
+		margin-right:100px;
+		
+		padding-top:0px;
+		padding-bottom:0px;
+		padding-left:0px;
+		padding-right:0px;
+
+	}
+
+	.square3-1
+	{
+		width: 270px;
+		height: 270px;
+		margin-left: 135px;
+		margin-top: 135px;
+		position: absolute;
+		
+		
+		background: lightblue;
+		
+	}
+
+	.position4
+
+	{
+		width: 540px;
+		height: 540px;
+		background: black;
+		align-items: center;
+		position: relative;
+		margin-top:100px;
+		margin-bottom:100px;
+		margin-left:100px;
+		margin-right:100px;
+		
+		padding-top:0px;
+		padding-bottom:0px;
+		padding-left:0px;
+		padding-right:0px;
+
+	}
+
+	.square4-1
+	{
+		width: 270px;
+		height: 270px;
+		display: inline-block;
+		background: rgb(176, 207, 232);
+	}
+	.square4-2
+	{
+		width: 270px;
+		height: 270px;
+		display: inline-block;
+		background: rgb(251, 227, 252);
+		
+		position: absolute;
+
+	}
+	.square4-3
+	{
+		width: 270px;
+		height: 270px;
+		display: block;
+		margin-top: -4px;
+		background: rgb(212, 249, 229);
+
+		
+		position: absolute;
+	}
+	.square4-4
+	{
+		width: 270px;
+		height: 270px;
+		margin-left: 270px;
+		margin-top: -4px;
+		background: rgb(252, 251, 222);
+		position: absolute;
+	}
+
+	.position5
+
+	{
+		width: 540px;
+		height: 540px;
+		background: black;
+		align-items: center;
+		position: relative;
+		margin-top:100px;
+		margin-bottom:100px;
+		margin-left:100px;
+		margin-right:100px;
+		
+		padding-top:0px;
+		padding-bottom:0px;
+		padding-left:0px;
+		padding-right:0px;
+
+	}
+
+	.square5-1
+	{
+		width: 540px;
+		height: 400px;
+		margin-top: 140px;
+		background: rgb(245, 222, 252);
+		position: absolute;
+		display: block;
+	}
+	.smallsquare5-1
+	{
+		width: 270px;
+		height: 140px;
+		background: purple;
+		position: absolute;
+		display: block;
+		transform: translate( 50%,60%);
+		margin-top: 50px;
+	}
+	.square5-2
+	{
+		width: 270px;
+		height: 140px;
+		background: rgb(232, 237, 239);
+		position: absolute;
+		display: block;
+	}
+	.square5-3
+	{
+		width: 270px;
+		height: 140px;
+		margin-left: 270px;
+		background: rgb(232, 237, 239);
+		position: absolute;
+		display: block;
+	}
+
+	.position6
+	{
+		width: 540px;
+		height: 540px;
+		background: black;
+		align-items: center;
+		position: relative;
+		margin-top:100px;
+		margin-bottom:100px;
+		margin-left:100px;
+		margin-right:100px;
+		
+		padding-top:0px;
+		padding-bottom:0px;
+		padding-left:0px;
+		padding-right:0px;
+	}
+	.square6-1
+	{
+		width: 540px;
+		height: 135px;
+		margin-top: 270px;
+		background: rgb(252, 250, 242);
+		position: absolute;
+		display: block;
+	}
+
+	.square6-2
+	{
+		width: 270px;
+		height: 270px;
+		margin-left: 140px;
+		margin-top: 135px;
+		background: rgb(114, 192, 234);
+		position: absolute;
+		display: block;
+	}
+
+	.position7
+	{
+		width: 540px;
+		height: 540px;
+		background: black;
+		align-items: center;
+		position: relative;
+		margin-top:100px;
+		margin-bottom:100px;
+		margin-left:100px;
+		margin-right:100px;
+		
+		padding-top:0px;
+		padding-bottom:0px;
+		padding-left:0px;
+		padding-right:0px;
+	}
+	.square7-1
+	{
+		width: 270px;
+		height: 270px;
+		display: inline-block;
+		background: rgb(159, 204, 160);
+	}
+	.square7-2
+	{
+		width: 270px;
+		height: 270px;
+		display: inline-block;
+		background: rgb(219, 214, 173);
+		
+		position: absolute;
+
+	}
+	.square7-3
+	{
+		width: 270px;
+		height: 270px;
+		margin-top: -4px;
+		display: block;
+		background: rgb(214, 169, 181);
+		
+
+		
+		position: absolute;
+	}
+	.square7-4
+	{
+		width: 270px;
+		height: 270px;
+		margin-left: 270px;
+		margin-top: -4px;
+		background: rgb(173, 199, 219);
+		position: absolute;
+		
+	}
+	.square7-5
+	{
+		width: 270px;
+		height: 135px;
+		
+		background: rgb(248, 249, 237);
+		position: absolute;
+		margin-top: -4px;
+	}
+	.square7-6
+	{
+		width: 135px;
+		height: 270px;
+		display: inline-block;
+		
+		background: pink;
+		position: absolute;
+		margin-top: 0;
+	}
+
+	.square7-7
+	{
+		width: 270px;
+		height: 270px;
+
+		
+		border-radius: 50%;
+		margin-left: 140px;
+		bottom: 140px;
+
+		
+		background: rgb(198, 145, 169);
+		position: absolute;
+		margin-top: 0;
+	}
+
+	.position8
+	{
+		width: 540px;
+		height: 540px;
+		background: black;
+		align-items: center;
+		position: relative;
+		margin-top:100px;
+		margin-bottom:100px;
+		margin-left:100px;
+		margin-right:100px;
+		
+		padding-top:0px;
+		padding-bottom:0px;
+		padding-left:0px;
+		padding-right:0px;
+	}
+	.square8-1
+	{
+		width: 135px;
+		height: 540px;
+		display: block;
+		background: rgb(217, 199, 219);
+		margin-top: 0;
+
+		
+		position: absolute;
+	}
+	.square8-2
+	{
+		width: 135px;
+		height: 540px;
+		margin-left: 135px;
+		
+		background: rgb(162, 217, 239);
+		margin-top: 0;
+		display: block;
+
+		
+		position: absolute;
+	}
+
+	.square8-3
+	{
+		width: 270px;
+		height: 270px;
+		margin-left: 270px;
+		
+		background: yellow;
+		margin-top: 0;
+		display: block;
+
+		
+		position: absolute;
+	}
+
+	.square8-4
+	{
+		width: 270px;
+		height: 270px;
+		margin-left: 270px;
+		margin-top: 270px;
+		
+		background: pink;
+		
+		display: block;
+
+		
+		position: absolute;
+	}
+
+	.position9
+	{
+		width: 540px;
+		height: 540px;
+		background: black;
+		align-items: center;
+		position: relative;
+		margin-top:100px;
+		margin-bottom:100px;
+		margin-left:100px;
+		margin-right:100px;
+		
+		padding-top:0px;
+		padding-bottom:0px;
+		padding-left:0px;
+		padding-right:0px;
+	}
+
+	.square9-1
+	{
+		width: 270px;
+		height: 540px;
+		background: pink;
+		
+		display: block;
+
+		
+		position: absolute;
+	}
+
+	.square9-2
+	{
+		width: 270px;
+		height: 540px;
+		margin-left: 270px;
+		background: skyblue;
+		
+		display: block;
+
+		
+		position: absolute;
+	}
+
+	.square9-3
+	{
+		width: 135px;
+		height: 135px;
+		margin-left: 270px;
+		background: purple;
+		
+		display: block;
+
+		
+		position: absolute;
+	}
+
+	.square9-4
+	{
+		width: 135px;
+		height: 135px;
+		margin-left: 135px;
+		top: 135px;
+		background: purple;
+		
+		display: block;
+
+		
+		position: absolute;
+	}
+	.square9-5
+	{
+		width: 135px;
+		height: 135px;
+		margin-left: 270px;
+		top: 270px;
+		background: purple;
+		
+		display: block;
+
+		
+		position: absolute;
+	}
+
+	.square9-6
+	{
+		width: 135px;
+		height: 135px;
+		margin-left: 135px;
+		top: 405px;
+		background: purple;
+		
+		display: block;
+
+		
+		position: absolute;
+	}
+	.position10
+	{
+		width: 540px;
+		height: 540px;
+		background: black;
+		align-items: center;
+		position: relative;
+		margin-top:100px;
+		margin-bottom:100px;
+		margin-left:100px;
+		margin-right:100px;
+		
+		padding-top:0px;
+		padding-bottom:0px;
+		padding-left:0px;
+		padding-right:0px;
+	}
+
+	.square10-1
+	{
+		width: 540px;
+		height: 540px;
+		border-radius: 50%;
+		
+		background: rgb(238, 227, 249);
+		
+		display: block;
+
+		
+		position: absolute;
+
+	}
+
+	.square10-2
+	{
+		width: 405px;
+		height: 405px;
+		margin-left: 60px;
+		top: 60px;
+		
+		background: black;
+		
+		display: block;
+
+		
+		position: absolute;
+
+	}
+	.square10-3
+	{
+		width: 405px;
+		height: 405px;
+		margin-left: 60px;
+		top: 60px;
+		border-radius: 50%;
+		
+		background: rgb(238, 227, 249);
+		
+		display: block;
+
+		
+		position: absolute;
+
+	}
+
+
+
+
+
+

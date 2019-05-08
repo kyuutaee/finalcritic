@@ -1,0 +1,114 @@
+/* boilerplate */
+
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+body
+{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Inconsolata', monospace;
+	min-height: 100vh;
+	background: #fcfcf9;
+	overflow: hidden;
+}
+
+
+.box
+{
+	position: absolute;
+	width: 1200px;
+	height: 400px;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	transform-style: preserve-3d;
+	border: 3px solid #262626;
+
+}
+
+.box.box1
+{
+	background: rgb(244,244,239);
+	transform-origin: right;
+	transform: perspective(500px) translateX(-50%)
+	rotateY(-15deg);
+}
+
+.box.box2
+{
+	background: rgb(242,242,234);
+	transform-origin: left;
+	transform: perspective(500px) translateX(50%)
+	rotateY(15deg);
+}
+
+.box.box1 ul
+{
+   color: #fff;
+}
+
+.box.box2 ul
+{
+	color: rgba(255,255,255,.2);
+	left: -100%;
+}
+
+.box ul
+{
+	position: absolute;
+	margin-top: 100px;
+	padding: 0;
+	white-space: nowrap;
+	left: 0;
+	font-size: 8em;
+	animation: animate 15s linear infinite;
+	
+	letter-spacing: -10px
+	
+	
+}
+
+ul li
+{
+	list-style:none;
+	transition: .5s;
+	
+}
+
+ul li a
+
+{
+	position: relative;
+	display: inline-block;
+	text-align: center;
+	margin:0 25px;
+	text-decoration:none;
+	text-transform: uppercase;
+	color: #fff;
+	font-style: bold;
+	-webkit-text-stroke: 2px black;
+	-webkit-text-fill-color: white;
+	
+}
+li:hover 
+
+{
+  opacity: .5;
+  filter: blur(5px);
+
+}
+
+
+@keyframes animate
+{
+	0%
+	{
+		transform: translate(2400px);
+	}
+	100%
+	{
+		transform: translate(-100%);
+	}
+}

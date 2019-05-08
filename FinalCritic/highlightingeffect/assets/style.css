@@ -1,0 +1,74 @@
+/* boilerplate */
+
+
+body{
+	padding: 0;
+	margin: 0;
+	background:#000
+}
+
+
+
+/*img{
+
+	margin-bottom:0px;
+	margin-top:-700px;
+	margin-left:0px;
+	margin-right:0px;
+	position:center;
+	position:absolute; */
+}
+p{
+
+}
+
+.emotion{
+	font-size:50px;
+	color:white;
+	width:200px;
+	height:200px;
+	top:-100px;
+	right:0px;
+	left:0px;
+	bottom:0px;
+	visibility:hidden;
+
+}
+ 
+.box
+{
+	position: absolute;
+	width:1980px;
+	height:1080px;
+	transform:translate(-50%,-50%);
+}
+
+img
+
+{
+	position: absolute;
+	top:0;
+	left:0;
+	width:100%;
+	-webkit-mask-image: url(skating.jpg);
+}
+
+.pointer
+{
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	width: 500px;
+	height: 500px;
+	background: #fff;
+	border-radius: 50%;
+	pointer-events: none;
+	mix-blend-mode:multiply;
+	opacity:0.9;
+	-webkit-filter:blur(30px);
+	box-shadow: 20px;
+	
+	
+}
+ 

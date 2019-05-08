@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Drum Machine</title>
+
+	<style type="text/css">
+	
+@import url('https://fonts.googleapis.com/css?family=Nova+Mono');
+
+		div.button1{
+			background: linear-gradient(#262626,#141414);
+			width: 100px;
+			height: 100px;
+			margin: 10px;
+			padding: 10px;
+			border-radius: 10px;
+			text-align: center;
+			font-family:'Nova Mono', monospace;;
+			display: inline-grid;
+			box-shadow: 0 0 0 4px #090909;
+			border-radius: 50%;
+		}
+
+		
+
+		div.button1:active{
+			text-shadow: 0 2px 5px rgba(0,0,0,.2);
+			transition: 0.5s;
+			transform: rotateY(0deg) scale(3.0);
+			opacity: 0.5;
+			background: pink;
+
+		}
+
+		h1{
+			font-size: 400%;
+			font-style: bold;
+			text-align: center;
+			font-family:sans-serif;
+		}
+
+		div.container
+		{
+			text-align: center;
+			margin-top: 200px;
+
+		}
+	</style>
+
+
+		
+	</style>
+</head>
+
+<body>
+	<audio src="Sound/bassdr04.wav" autostart="false" id="bass1"></audio>
+	<audio src="Sound/Clap01.wav" autostart="false" id="Clap01"></audio>
+	<audio src="Sound/Hat02.wav" autostart="false" id="Hat02"></audio>
+	<audio src="Sound/Cymbal.wav" autostart="false" id="Cymbal"></audio>
+	<audio src="Sound/Kick01.wav" autostart="false" id="Kick01"></audio>
+	<audio src="Sound/opHat02.wav" autostart="false" id="opHat02"></audio>
+	<audio src="Sound/snr01.wav" autostart="false" id="snr01"></audio>
+	<audio src="Sound/Tom01.wav" autostart="false" id="Tom01"></audio>
+
+<h1>Random BGM</h1>
+<div class="container">
+
+	<div class="button1" onclick="playSample('bass1')"></div>
+	<div class="button1" onclick="playSample('Clap01')"></div>
+	<div class="button1" onclick="playSample('Hat02')"></div>
+	<div class="button1" onclick="playSample('Cymbal')"></div>
+	<div class="button1" onclick="playSample('Kick01')"></div>
+	<div class="button1" onclick="playSample('opHat02')"></div>
+	<div class="button1" onclick="playSample('snr01')"></div>
+	<div class="button1" onclick="playSample('Tom01')"></div>
+
+</div>
+
+<script>
+	function playSample(sampleName) {
+		var sample = document.getElementById(sampleName);
+		sample.play();
+
+	}
+</script>
+
+</body>
+</html>

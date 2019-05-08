@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	<style type="text/css">
+		
+		#second_div{
+			transition: background-color 1.5s;
+		}
+
+		.background{
+			background-color: skyblue;
+
+		}
+
+		.mysquare{
+			width: 20px;
+			height: 20px;
+			background-color: red;
+			margin-top: 10px;
+			margin-bottom: 10px;
+			border-radius: 50px;
+			margin-left: 100px;
+
+
+
+		}
+		.container1
+		{
+			margin-bottom: 100px;
+			position: absolute;
+			margin-left: 200px;
+			margin-top: 180px;
+
+		}
+
+		.baby
+		{
+			width: 200px;
+			height: 200px;
+		}
+
+	</style>
+
+</head>
+<body>
+
+	
+		<div class="container1"> <div class="mysquare"></div>
+		<div class="mysquare"></div>
+		<div class="mysquare"></div>
+		<div class="mysquare"></div>
+		<div class="mysquare"></div>
+		<div class="mysquare"></div>
+		<div class="mysquare"></div>
+		<div class="mysquare"></div>
+		<div class="mysquare"></div> 
+		<div class="mysquare"></div>
+		<div class="mysquare"></div>
+		<div class="mysquare"></div>
+		<div class="mysquare"></div>
+		<div class="mysquare"></div>
+		<div class="mysquare"></div>
+
+
+
+	</div>
+
+		<div class="baby"> <img src="baby.png">
+	</div>
+
+
+	<script type="text/javascript" src="jquery.min.js"></script>
+	<script type="text/javascript">
+		$(window).ready(function(){
+
+
+			/*
+
+				jquery
+
+				$ calls jquery
+
+				$("OURSELECTOR") tells jquery to look for an element
+
+				$(".class")
+				$("h1")
+				$("#id")
+
+				interactive methods: 
+
+				$(".class").hover(function(){
+					// do something on hover
+				})
+
+				$(".class").click(function(){
+					// do something on click
+					// $(".class").removeClass("old_class")
+
+					$(this).addClass("new_class")
+				})
+
+
+				methods that change appearance:
+
+				$(".class").html("this is its new content")
+
+				$(".class").addClass("a_new_css_class")
+				$(".class").removeClass("old_class")
+				$(".class").css({"font-size" : "30px"})
+
+				// methods to apply to a lot of content
+
+				$(".class").each(function(){
+					$(this).addClass("new_class")
+				})
+
+			*/
+
+			// var myElement = document.getElementById("first_div");
+			// console.log(myElement)
+
+			
+
+			// animate and chaining jquery methods
+			
+
+			$("html").animate({
+		        scrollTop: 600
+		    }, 1500 )
+
+
+			console.log($(".myelements"))
+
+
+			$(".myelements").css({"font-family" : "helvetica"})
+
+			var rotation = 0;
+
+			$(".mysquare").each(function(){
+
+				$(this).css({"transform" : "rotate(" + rotation +  "deg)"})
+
+				$(this).html("crying")
+
+				rotation = rotation + 30;
+
+			})
+
+
+
+			$(".mysquare")
+			.mouseenter(function(){
+				$(this).css({"background-color" : "blue"})
+
+			})
+			.mouseleave(function(){
+				$(this).css({"background-color" : "pink"})
+			})
+			.click(function(){
+
+				$(this).animate({
+					width: "50px"
+				}, 1000)
+
+			})
+
+
+			$(window).scroll(function(){
+				console.log($(this).scrollTop(),
+							$("html").outerHeight() - $(window).innerHeight())
+
+				$("body").css({"opacity" : 1 - ($(this).scrollTop() / ($("html").outerHeight() - $(window).innerHeight()))})
+
+			})
+
+			$(window).resize(function(){
+				
+				console.log($(window).innerWidth(), $(window).innerHeight())
+			})
+
+
+		})
+	</script>
+
+</body>
+</html>
