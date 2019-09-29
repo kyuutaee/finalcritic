@@ -22,7 +22,7 @@ body {
     -moz-text-stroke-width: 1.5px;
     -webkit-text-stroke-width: 1.5px;
     position: absolute;
-    margin-top: -820px;
+    margin-top: -900px;
     text-decoration: none;
     font-family: sans-serif;
     margin-left: 5px;
@@ -88,7 +88,7 @@ body {
 
 ul
 {
-  margin-top: 0px;
+  margin-top: 70px;
   list-style: none;
 
 }

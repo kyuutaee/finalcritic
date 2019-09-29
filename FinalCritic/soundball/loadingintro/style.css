@@ -3,7 +3,7 @@ body
 {
 	margin: 0;
 	padding: 0;
-	background: #efefef;
+	background: rgb(250, 250, 240);
 }
 
 h1{
@@ -19,20 +19,20 @@ h1{
   font-size: 40px;
   letter-spacing: 2px;
   text-transform: uppercase;
-  -webkit-text-fill-color:transparent;
-  -webkit-text-stroke:0.5px black;
+  /*-webkit-text-fill-color:transparent;
+  -webkit-text-stroke:2px black;*/
   text-align: center;
-  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-family: 'tilde', sans-serif;
 }
 
 .play{
   font-size: 20px;
   letter-spacing: 2px;
   text-transform: uppercase;
-  -webkit-text-fill-color:transparent;
-  -webkit-text-stroke:0.5px black;
+  /*-webkit-text-fill-color:transparent;
+  -webkit-text-stroke:2px black;*/
   text-align: center;
-  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-family: 'tilde', sans-serif;
   margin-top: 0px;
   
 
@@ -128,23 +128,23 @@ ul li:nth-child(5)
 
 #ball1
 {
-	background-color: #4389f9;
+	background-color: #DCDCDD;
 }
 #ball2
 {
-	background-color: #6cd871;
+	background-color: #C5C3C6;
 }
 #ball3
 {
-	background-color: #f9986b;
+	background-color: #46494C;
 }
 #ball4
 {
-	background-color: #e56b60;
+	background-color: #4C5C68;
 }
 #ball5
 {
-	background-color: #f47fd9;
+	background-color: #1985A1;
 }
 
 .main
@@ -185,7 +185,7 @@ span li a
 	border-radius: 50%;
 	text-decoration: none;
 	font-size: 12px;
-	color: #b5b5b5;
+	color: #000000;
 }
 
 

@@ -281,7 +281,7 @@ body
 ul
 {
     position: absolute;
-    top: 359px;
+    top: 400px;
 
    
     text-align: center;
@@ -345,6 +345,7 @@ ul li a:hover
     font-size: 350px;
     margin-left: 20px;
     opacity: 0.8;
+    top: 35px;
 
   
 }
