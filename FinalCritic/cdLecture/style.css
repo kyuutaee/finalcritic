@@ -1,11 +1,12 @@
 html, body {
   height: 100%;
+
 }
 
 
 
 body {
-  background: black;
+  background: #cabebe;
   min-height: 100%;
   overflow: hidden;
 }
@@ -15,7 +16,7 @@ body {
 .wrapper
 {
 
-  background: black;
+  
   position: absolute;
 }
 
@@ -25,11 +26,11 @@ body {
 {
   width: 700px;
   height: 700px;
-  border: solid 8px white;
-  background: transparent;
+  border: solid 30px white;
+  background: #cabebe;
   position: relative;
-  left: 350px;
-  top: 40px;
+  left: 450px;
+  top: 80px;
   z-index: 10000;
 
   /*filter: blur(0.05vw) saturate(0%) contrast(1000%);
@@ -89,8 +90,8 @@ body {
 
 .text:nth-child(1) {
   font-size: 800px;
-  color: #bf40ac;
-  font-family: helvetica;
+  color: #cee5f2;
+  font-family: tilde;
   -webkit-animation-delay: -18.8s;
   animation-delay: -18.8s;
   -webkit-transform: translate3d(-2500px, 200px, 190px);
@@ -104,8 +105,8 @@ body {
 
 .text:nth-child(2) {
   font-size: 800px;
-  color: #407fbf;
-  font-family: helvetica;
+  color: #accbe1;
+  font-family: tilde;
   -webkit-animation-delay: -16s;
   animation-delay: -16s;
   -webkit-transform: translate3d(-2500px, 100px, 800px);
@@ -119,8 +120,8 @@ body {
 
 .text:nth-child(3) {
   font-size: 800px;
-  color: #bf4044;
-  font-family: helvetica;
+  color: #7c98b3;
+  font-family: tilde;
   -webkit-animation-delay: -13s;
   animation-delay: -13s;
   -webkit-transform: translate3d(659px, 960px, 506px);
@@ -132,8 +133,8 @@ body {
 
 .text:nth-child(4) {
   font-size: 800px;
-  color: #5bbf40;
-  font-family: helvetica;
+  color: #637081;
+  font-family: tilde;
   -webkit-animation-delay: -10s;
   animation-delay: -10s;
   -webkit-transform: translate3d(-2700px, 200px, 200px);
@@ -150,8 +151,8 @@ body {
 
 .text:nth-child(5) {
   font-size: 600px;
-  color: #f4ee42;
-  font-family: helvetica;
+  color: #536B78;
+  font-family: tilde;
   -webkit-animation-delay: -7.6s;
   animation-delay: -7.6s;
   -webkit-transform: translate3d(659px, 960px, 500px);
@@ -186,6 +187,6 @@ body {
 .corner
 {
   font-size: 100px;
-  font-family: helvetica;
+  font-family: tilde;
   color:  white;
 }
